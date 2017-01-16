@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		814BC7B81E2C833D00E2707F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7B71E2C833D00E2707F /* main.m */; };
 		814BC7BB1E2C833D00E2707F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7BA1E2C833D00E2707F /* AppDelegate.m */; };
-		814BC7BE1E2C833D00E2707F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7BD1E2C833D00E2707F /* ViewController.m */; };
 		814BC7C11E2C833D00E2707F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814BC7BF1E2C833D00E2707F /* Main.storyboard */; };
 		814BC7C31E2C833D00E2707F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814BC7C21E2C833D00E2707F /* Assets.xcassets */; };
 		814BC7C61E2C833D00E2707F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814BC7C41E2C833D00E2707F /* LaunchScreen.storyboard */; };
+		814BC7D91E2C85DC00E2707F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7D81E2C85DC00E2707F /* LoginViewController.m */; };
+		814BC7DC1E2C860800E2707F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7DB1E2C860800E2707F /* User.m */; };
+		814BC7DF1E2C873000E2707F /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7DE1E2C873000E2707F /* SignUpViewController.m */; };
+		814BC7E21E2C87C400E2707F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7E11E2C87C400E2707F /* HomeViewController.m */; };
+		814BC7E51E2C884A00E2707F /* AddLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BC7E41E2C884A00E2707F /* AddLocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,22 @@
 		814BC7B71E2C833D00E2707F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		814BC7B91E2C833D00E2707F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		814BC7BA1E2C833D00E2707F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		814BC7BC1E2C833D00E2707F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		814BC7BD1E2C833D00E2707F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		814BC7C01E2C833D00E2707F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814BC7C21E2C833D00E2707F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814BC7C51E2C833D00E2707F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814BC7C71E2C833D00E2707F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814BC7D01E2C847900E2707F /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		814BC7D11E2C849200E2707F /* AddLocationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddLocationProtocol.h; sourceTree = "<group>"; };
+		814BC7D71E2C85DC00E2707F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		814BC7D81E2C85DC00E2707F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		814BC7DA1E2C860800E2707F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		814BC7DB1E2C860800E2707F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		814BC7DD1E2C873000E2707F /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		814BC7DE1E2C873000E2707F /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		814BC7E01E2C87C400E2707F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		814BC7E11E2C87C400E2707F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		814BC7E31E2C884A00E2707F /* AddLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLocationViewController.h; sourceTree = "<group>"; };
+		814BC7E41E2C884A00E2707F /* AddLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLocationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +74,10 @@
 			children = (
 				814BC7B91E2C833D00E2707F /* AppDelegate.h */,
 				814BC7BA1E2C833D00E2707F /* AppDelegate.m */,
-				814BC7BC1E2C833D00E2707F /* ViewController.h */,
-				814BC7BD1E2C833D00E2707F /* ViewController.m */,
+				814BC7D01E2C847900E2707F /* Constant.h */,
+				814BC7D11E2C849200E2707F /* AddLocationProtocol.h */,
+				814BC7CE1E2C842D00E2707F /* Models */,
+				814BC7CF1E2C844800E2707F /* ViewControllers */,
 				814BC7BF1E2C833D00E2707F /* Main.storyboard */,
 				814BC7C21E2C833D00E2707F /* Assets.xcassets */,
 				814BC7C41E2C833D00E2707F /* LaunchScreen.storyboard */,
@@ -77,6 +93,62 @@
 				814BC7B71E2C833D00E2707F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		814BC7CE1E2C842D00E2707F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7DA1E2C860800E2707F /* User.h */,
+				814BC7DB1E2C860800E2707F /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		814BC7CF1E2C844800E2707F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7D21E2C84A700E2707F /* LoginViewController */,
+				814BC7D61E2C84FA00E2707F /* SignUpViewController */,
+				814BC7D41E2C84C100E2707F /* HomeViewController */,
+				814BC7D51E2C84CF00E2707F /* AddLocationViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		814BC7D21E2C84A700E2707F /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7D71E2C85DC00E2707F /* LoginViewController.h */,
+				814BC7D81E2C85DC00E2707F /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		814BC7D41E2C84C100E2707F /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7E01E2C87C400E2707F /* HomeViewController.h */,
+				814BC7E11E2C87C400E2707F /* HomeViewController.m */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		814BC7D51E2C84CF00E2707F /* AddLocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7E31E2C884A00E2707F /* AddLocationViewController.h */,
+				814BC7E41E2C884A00E2707F /* AddLocationViewController.m */,
+			);
+			name = AddLocationViewController;
+			sourceTree = "<group>";
+		};
+		814BC7D61E2C84FA00E2707F /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				814BC7DD1E2C873000E2707F /* SignUpViewController.h */,
+				814BC7DE1E2C873000E2707F /* SignUpViewController.m */,
+			);
+			name = SignUpViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814BC7BE1E2C833D00E2707F /* ViewController.m in Sources */,
+				814BC7DC1E2C860800E2707F /* User.m in Sources */,
+				814BC7D91E2C85DC00E2707F /* LoginViewController.m in Sources */,
+				814BC7DF1E2C873000E2707F /* SignUpViewController.m in Sources */,
 				814BC7BB1E2C833D00E2707F /* AppDelegate.m in Sources */,
+				814BC7E21E2C87C400E2707F /* HomeViewController.m in Sources */,
 				814BC7B81E2C833D00E2707F /* main.m in Sources */,
+				814BC7E51E2C884A00E2707F /* AddLocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
