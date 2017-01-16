@@ -37,15 +37,12 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
     [self HideNavigationBar];
 }
+
 
 - (void)HideNavigationBar {
     if (self.navigationController.navigationBar) {
@@ -55,7 +52,6 @@
 
 - (void)SetupViews {
     CGRect mainFrame = [[UIScreen mainScreen] bounds];
-    
     
     CGSize fieldSize = CGSizeMake(mainFrame.size.width - 60, 44);
     
@@ -70,6 +66,8 @@
     EmailField.returnKeyType = UIReturnKeyNext;
     EmailField.delegate = self;
     [self.view addSubview:EmailField];
+    
+    //TextField for password 
     
     UITextField* PasswordField = [[UITextField alloc] initWithFrame:
                                     CGRectMake(30, (EmailField.frame.origin.y + 50), fieldSize.width, fieldSize.height)];
